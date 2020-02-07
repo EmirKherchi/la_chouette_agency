@@ -9,8 +9,10 @@ body {
 
 a,
 button {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -32,9 +34,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -66,10 +65,7 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -332,9 +328,15 @@ a:hover {
     text-align: inherit;
 }
 
+.nav>li a {
+    font-size: 16px;
+    font-weight: 300;
+}
+
 .nav>li a:hover,
 .nav>li a:focus {
     background: transparent;
+    font-weight: 600;
 }
 
 .navbar-toggle {
@@ -343,7 +345,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -363,9 +365,9 @@ a:hover {
 }
 
 .nav>li>.dropdown a {
-    background: none!important;
+    background: none;
     display: block;
-    padding: 14px 15px;
+    padding: 14px 25px;
 }
 
 nav .caret {
@@ -390,7 +392,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0;
     float: right;
 }
 
@@ -420,7 +422,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -431,15 +433,16 @@ button {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -466,6 +469,7 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -477,6 +481,8 @@ button {
     right: 20px;
     opacity: 0;
     z-index: 500;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
@@ -509,6 +515,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -520,7 +527,11 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -571,6 +582,8 @@ a[data-lightbox]:hover img {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
     background: rgba(0, 0, 0, .5);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -610,7 +623,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -651,7 +664,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -672,21 +685,22 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
+    -webkit-box-shadow: 0px 0px 0px #000000;
     box-shadow: 0px 0px 0px #000000;
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -695,7 +709,10 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 
 .portfolio-thumb {
@@ -708,6 +725,7 @@ h4 {
 }
 
 .avatar {
+    -webkit-box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
@@ -718,7 +736,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -734,38 +752,41 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
+    max-width: 250px;
+    display: block;
+    margin: auto;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -792,6 +813,10 @@ h4 {
     margin: 20px 20px 3px 20px;
 }
 
+.contact {
+    margin-top: 50px
+}
+
 
 /*Breakpoint responsive*/
 
@@ -815,8 +840,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -824,7 +849,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        float: none;
     }
     .navbar.row {
         margin-left: 0;
@@ -849,7 +874,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
@@ -949,6 +974,7 @@ h4 {
         position: absolute;
         top: 50%;
         right: 20px;
+        -ms-transform: translate(0, -50%);
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
