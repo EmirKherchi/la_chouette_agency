@@ -3,14 +3,10 @@ body,html {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
 button {
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     outline: none;
 }
@@ -432,7 +428,6 @@ button {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
@@ -468,7 +463,6 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -480,8 +474,6 @@ button {
     right: 20px;
     opacity: 0;
     z-index: 500;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
@@ -514,23 +506,16 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
 
 #lightbox-modal {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -581,8 +566,6 @@ a[data-lightbox]:hover img {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
     background: rgba(0, 0, 0, .5);
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -690,7 +673,6 @@ h3 {
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    -webkit-box-shadow: 0px 0px 0px #000000;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -724,7 +706,6 @@ h4 {
 }
 
 .avatar {
-    -webkit-box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
