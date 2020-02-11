@@ -1,4 +1,4 @@
-body {
+body,html {
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -313,9 +313,14 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
+<<<<<<< Updated upstream
     margin-right: -16px;
     float: right;
+=======
+    
+>>>>>>> Stashed changes
     z-index: 1;
+    margin-left: 25%;
 }
 
 .nav>li {
