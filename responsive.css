@@ -25,3 +25,9 @@ html, body{
 #bloc-1-hero, #bloc-3-what-i-do{
     background-attachment: scroll;
 }
+
+.carousel-inner{
+
+  margin-left: 1px;
+}
+
