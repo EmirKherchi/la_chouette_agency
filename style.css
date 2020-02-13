@@ -832,3 +832,16 @@ footer p{
   font-size: 16px;
   line-height: 1.5em;
 }
+
+/*caroussel bootstrap*/
+
+.modal.and.carousel {
+  position: fixed; // Needed because the carousel overrides the position property
+}
+
+
+.carousel-inner .item {
+  margin: auto;
+}
+
+
