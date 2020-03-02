@@ -12,7 +12,8 @@ button {
   outline: none;
 }
 
-a:hover, a:focus, {
+a:hover,
+a:focus{
   text-decoration: none;
   cursor: pointer;
 }
@@ -126,7 +127,7 @@ a:hover, a:focus, {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: #fff);
+  color: #fff;
   font-weight: 500;
 }
 
@@ -584,7 +585,7 @@ a[data-lightbox]:hover img, a[data-lightbox]:focus img {
 
 .close-lightbox:hover,.close-lightbox:focus,
 .next-lightbox:hover,.next-lightbox:focus,
-.prev-lightbox:hover,..prev-lightbox:focus,{
+.prev-lightbox:hover,.prev-lightbox:focus{
   opacity: 1;
   color: #fff;
 }
