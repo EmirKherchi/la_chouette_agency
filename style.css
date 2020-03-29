@@ -13,7 +13,7 @@ button {
 }
 
 a:hover,
-a:focus{
+a:focus {
   text-decoration: none;
   cursor: pointer;
 }
@@ -97,7 +97,8 @@ a:focus{
   color: rgba(255, 255, 255, 0.7);
 }
 
-.d-bloc button:hover,.d-bloc button:focus {
+.d-bloc button:hover,
+.d-bloc button:focus {
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -131,20 +132,34 @@ a:focus{
   font-weight: 500;
 }
 
-.d-bloc .a-btn:hover,.d-bloc .a-btn:focus,
-.d-bloc .navbar a:hover,.d-bloc .navbar a:focus,
-.d-bloc .navbar-brand:hover,.d-bloc .navbar-brand:focus,
-.d-bloc a:hover .icon-sm,.d-bloc a:focus .icon-sm,
-.d-bloc a:hover .icon-md,.d-bloc a:focus .icon-md,
-.d-bloc a:hover .icon-lg,.d-bloc a:focus .icon-lg,
-.d-bloc a:hover .icon-xl,.d-bloc a:focus .icon-xl,
-.d-bloc h1 a:hover,.d-bloc h1 a:focus,
-.d-bloc h2 a:hover,.d-bloc h2 a:focus,
-.d-bloc h3 a:hover,.d-bloc h3 a:focus,
-.d-bloc h4 a:hover,.d-bloc h4 a:focus,
-.d-bloc h5 a:hover,.d-bloc h5 a:focus,
-.d-bloc h6 a:hover,.d-bloc h6 a:focus,
-.d-bloc p a:hover, .d-bloc p a:focus {
+.d-bloc .a-btn:hover,
+.d-bloc .a-btn:focus,
+.d-bloc .navbar a:hover,
+.d-bloc .navbar a:focus,
+.d-bloc .navbar-brand:hover,
+.d-bloc .navbar-brand:focus,
+.d-bloc a:hover .icon-sm,
+.d-bloc a:focus .icon-sm,
+.d-bloc a:hover .icon-md,
+.d-bloc a:focus .icon-md,
+.d-bloc a:hover .icon-lg,
+.d-bloc a:focus .icon-lg,
+.d-bloc a:hover .icon-xl,
+.d-bloc a:focus .icon-xl,
+.d-bloc h1 a:hover,
+.d-bloc h1 a:focus,
+.d-bloc h2 a:hover,
+.d-bloc h2 a:focus,
+.d-bloc h3 a:hover,
+.d-bloc h3 a:focus,
+.d-bloc h4 a:hover,
+.d-bloc h4 a:focus,
+.d-bloc h5 a:hover,
+.d-bloc h5 a:focus,
+.d-bloc h6 a:hover,
+.d-bloc h6 a:focus,
+.d-bloc p a:hover,
+.d-bloc p a:focus {
   color: rgba(255, 255, 255, 1);
   font-weight: bold;
 }
@@ -155,7 +170,7 @@ a:focus{
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover,
-.d-bloc .btn-wire:focus{
+.d-bloc .btn-wire:focus {
   color: rgba(255, 255, 255, 1);
   border-color: rgba(255, 255, 255, 1);
 }
@@ -164,7 +179,8 @@ a:focus{
   color: rgba(0, 0, 0, 0.5);
 }
 
-.d-bloc .panel button:hover,.d-bloc .panel button:focus{
+.d-bloc .panel button:hover,
+.d-bloc .panel button:focus {
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -365,7 +381,8 @@ a:focus{
   border: 0px;
 }
 
-.navbar-toggle:hover, .navbar-toggle:focus {
+.navbar-toggle:hover,
+.navbar-toggle:focus {
   background: transparent;
 }
 
@@ -492,6 +509,11 @@ button {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
+.formulaire {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
 
 .scrollToTop {
   width: 40px;
@@ -519,7 +541,8 @@ a[data-lightbox] {
   text-align: center;
 }
 
-a[data-lightbox]:hover::before, a[data-lightbox]:focus::before {
+a[data-lightbox]:hover::before,
+a[data-lightbox]:focus::before {
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
@@ -538,7 +561,8 @@ a[data-lightbox]:hover::before, a[data-lightbox]:focus::before {
   transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img, a[data-lightbox]:focus img {
+a[data-lightbox]:hover img,
+a[data-lightbox]:focus img {
   opacity: 0.6;
   animation-fill-mode: none;
 }
@@ -583,9 +607,12 @@ a[data-lightbox]:hover img, a[data-lightbox]:focus img {
   opacity: 0.3;
 }
 
-.close-lightbox:hover,.close-lightbox:focus,
-.next-lightbox:hover,.next-lightbox:focus,
-.prev-lightbox:hover,.prev-lightbox:focus{
+.close-lightbox:hover,
+.close-lightbox:focus,
+.next-lightbox:hover,
+.next-lightbox:focus,
+.prev-lightbox:hover,
+.prev-lightbox:focus {
   opacity: 1;
   color: #fff;
 }
@@ -739,6 +766,11 @@ h4 {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
+#bloc-2-services {
+  display: block;
+  margin: auto;
+  padding: 0;
+}
 .black-background {
   background-color: rgba(165, 147, 99, 0.7);
   padding: 40px 40px 40px 40px;
@@ -773,7 +805,8 @@ h4 {
   margin: auto;
 }
 
-.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
   background: #c27956;
   color: #383838;
 }
@@ -782,7 +815,8 @@ h4 {
   color: #ffffff;
 }
 
-.ltc-white:hover,.ltc-white:focus {
+.ltc-white:hover,
+.ltc-white:focus {
   color: #cccccc;
 }
 
@@ -790,7 +824,8 @@ h4 {
   color: #f3976c;
 }
 
-.ltc-atomic-tangerine:hover, .ltc-atomic-tangerine:focus {
+.ltc-atomic-tangerine:hover,
+.ltc-atomic-tangerine:focus {
   color: #c27956;
 }
 
@@ -827,13 +862,13 @@ h4 {
   margin-top: 50px;
 }
 
-footer p{
+footer p {
   color: #000;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5em;
 }
 
-#form-alert{
+#form-alert {
   display: none;
 }
